@@ -34,6 +34,18 @@ header > h1{
     text-shadow: 2px 2px white;
 }
 
-main {
-    
+main > h1{
+    background-color: chocolate;
+}
+
+section {
+    background-color: aquamarine;
+}
+
+aside > h1{
+    background-color: blue;
+}
+
+aside > ul{
+    background-color: cadetblue;
 }
