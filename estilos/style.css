@@ -27,12 +27,17 @@ body{
 header {
     background-image: url(../imagens/foto400.jpg);
     background-repeat: no-repeat;
+    width: 100%;
     background-position: right center;
     background-size: cover;
     color: black;
     text-align: center;
     padding: 40px;
     
+}
+
+img {
+    width: 100vw;
 }
 
 header > h1{
@@ -48,12 +53,14 @@ main > h1{
     /*width: 400px;*/
     min-width: 300px;
     max-width: 1000px;
+    width: 70%;
     margin: auto;
     padding: 20px;
     margin-top: 15px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-family: var(--fonte3);
+    font-size: 1.5em;
 
 }
 
@@ -64,6 +71,7 @@ section {
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
+    width: 70%;
     /*width: 400px;
     height: 1200px;*/
     padding: 20px;
@@ -76,8 +84,12 @@ section {
 }
 
 span{
-    text-decoration: none;
+    
     color: black;
+}
+
+main section a{
+    text-decoration: none;
 }
 
 section > p{
@@ -90,12 +102,14 @@ aside > h1{
     text-align: center;
     min-width: 300px;
     max-width: 1000px;
+    width: 70%;
     /*width: 400px;*/
     margin: auto;
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-family: var(--fonte3);
+    font-size: 1.5em;
 }
 
 
@@ -105,6 +119,7 @@ ul{
     /*width: 400px;*/
     min-width: 300px;
     max-width: 1000px;
+    width: 70%;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
@@ -113,4 +128,26 @@ ul{
     border-bottom-right-radius: 20px;
     font-family: var(--fonte2);
     
+    
+}
+
+div h1{
+    background-color: #0B4227;
+    color: white;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    width: 70%;
+    /*width: 400px;*/
+    margin: auto;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+}
+
+div ul a{
+    text-decoration: none;
+    color: black;
 }
