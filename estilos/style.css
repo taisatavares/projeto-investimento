@@ -4,10 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 :root {
     
     --fonte1: 'Passion One', cursive;
     --fonte2: 'Sriracha', cursive;
+    --fonte3: 'Montserrat', sans-serif;
     
 }
 
@@ -15,6 +18,10 @@
     margin: 0px;
     padding: 0px;
 
+}
+
+body{
+    background-image: linear-gradient(to left,  #1adb7ecb, #168d53);
 }
 
 header {
@@ -30,22 +37,72 @@ header {
 
 header > h1{
     font-family: var(--fonte2);
-    font-size: 5vw;
+    font-size: 7vw;
     text-shadow: 2px 2px white;
 }
 
 main > h1{
-    background-color: chocolate;
+    background-color: #0B4227;
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: var(--fonte3);
+
 }
 
 section {
-    background-color: aquamarine;
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: var(--fonte2);
+    
+
+}
+
+span{
+    text-decoration: none;
+    color: black;
+}
+
+section > p{
+    text-indent: 20px;
 }
 
 aside > h1{
-    background-color: blue;
+    background-color: #0B4227;
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: var(--fonte3);
 }
 
-aside > ul{
-    background-color: cadetblue;
+
+
+ul{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    columns: 2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: var(--fonte2);
+    
 }
