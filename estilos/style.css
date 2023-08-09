@@ -68,7 +68,7 @@ main > h1{
 }
 
 section {
-    background-color: white;
+    background-color: #dfe4dfee;
     text-align: center;
     text-align: justify;
     margin: auto;
@@ -115,18 +115,41 @@ aside > h1{
     font-size: 1.5em;
 }
 
+aside > ol {
+    columns: 1;
+    margin: auto;
+    text-align: left;
+    list-style-position: inside;
+    background-color: white;
+    /*width: 400px;*/
+    min-width: 300px;
+    max-width: 1000px;
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: var(--fonte2);
+    background-image: url(../imagens/branco700.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+    
+
+    
+    
+}
 
 
 ul{
-    background-color: white;
-    /*width: 400px;*/
+    background-color: #dfe4dfee;
     min-width: 300px;
     max-width: 1000px;
     width: 70%;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
-    columns: 2;
+    text-align: left;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-family: var(--fonte2);
@@ -160,7 +183,6 @@ div h1{
     min-width: 300px;
     max-width: 1000px;
     width: 70%;
-    /*width: 400px;*/
     margin: auto;
     padding: 20px;
     border-top-left-radius: 20px;
@@ -168,6 +190,16 @@ div h1{
     font-family: var(--fonte3);
     font-size: 1.5em;
 }
+
+div ul{
+    list-style-position: inside;
+    columns: 2;
+
+    
+}
+
+
+
 
 div ul a{
     text-decoration: none;
