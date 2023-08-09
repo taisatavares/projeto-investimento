@@ -136,12 +136,12 @@ ul{
 
 ul.passo{
     list-style-type: none;
-    border-radius: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
     columns: 3;
     text-align: center;
     display: block;
+    
     
 }
 
@@ -220,6 +220,7 @@ section > th, td {
     
 }
 
-tr:nth-child(even){
-    background-color: rgb(228, 228, 228);
+div#passos {
+    padding: 10px;
+    
 }
