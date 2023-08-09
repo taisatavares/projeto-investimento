@@ -68,7 +68,7 @@ main > h1{
 }
 
 section {
-    background-color: #dfe4dfee;
+    background-color: /*#dfe4dfee;*/ #D1DBE3;
     text-align: center;
     text-align: justify;
     margin: auto;
@@ -120,7 +120,7 @@ aside > ol {
     margin: auto;
     text-align: left;
     list-style-position: inside;
-    background-color: white;
+    background-color: #D1DBE3;
     /*width: 400px;*/
     min-width: 300px;
     max-width: 1000px;
@@ -142,7 +142,7 @@ aside > ol {
 
 
 ul{
-    background-color: #dfe4dfee;
+    background-color: #D1DBE3;
     min-width: 300px;
     max-width: 1000px;
     width: 70%;
