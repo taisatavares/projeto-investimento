@@ -134,6 +134,25 @@ ul{
     
 }
 
+ul.passo{
+    list-style-type: none;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    columns: 3;
+    text-align: center;
+    display: block;
+    
+}
+
+ul.passo a{
+    color: white;
+    font-size: 1em;
+}
+
+
+
+
 div h1{
     background-color: #0B4227;
     color: white;
@@ -153,4 +172,54 @@ div h1{
 div ul a{
     text-decoration: none;
     color: black;
+}
+
+section.pag2{
+    margin-top: 20px;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    width: 70%;
+    text-indent: 20px;
+}
+
+section.pag3{
+    margin-top: 20px;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    width: 70%;
+    text-indent: 20px;
+}
+
+section.pag04{
+    margin-top: 20px;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    width: 70%;
+    text-indent: 20px;
+}
+
+section > table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    
+}
+
+section > table > thead {
+    border: 1px solid gray;
+    padding: 10px;
+    
+}
+
+section > th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(228, 228, 228);
 }
