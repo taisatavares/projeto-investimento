@@ -56,7 +56,7 @@ main > h1{
     /*width: 400px;*/
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 20px;
     margin-top: 15px;
@@ -74,7 +74,7 @@ section {
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     /*width: 400px;
     height: 1200px;*/
     padding: 20px;
@@ -124,7 +124,7 @@ aside > ol {
     /*width: 400px;*/
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     margin-bottom: 20px;
     padding: 20px;
     border-bottom-left-radius: 20px;
@@ -145,7 +145,7 @@ ul{
     background-color: #D1DBE3;
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
@@ -182,7 +182,7 @@ div h1{
     text-align: center;
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 20px;
     border-top-left-radius: 20px;
@@ -194,6 +194,7 @@ div h1{
 div ul{
     list-style-position: inside;
     columns: 2;
+    list-style-type: none;
 
     
 }
@@ -206,12 +207,16 @@ div ul a{
     color: black;
 }
 
+div ul img {
+    width: 20px;
+}
+
 section.pag2{
     margin-top: 20px;
     border-radius: 20px;
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     text-indent: 20px;
 }
 
@@ -220,7 +225,7 @@ section.pag3{
     border-radius: 20px;
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     text-indent: 20px;
 }
 
@@ -229,7 +234,7 @@ section.pag04{
     border-radius: 20px;
     min-width: 300px;
     max-width: 1000px;
-    width: 70%;
+    width: 80%;
     text-indent: 20px;
 }
 
@@ -252,7 +257,12 @@ section > th, td {
     
 }
 
+
+
 div#passos {
     padding: 10px;
     
 }
+
+
+
