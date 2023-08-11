@@ -21,7 +21,8 @@
 }
 
 body{
-    background-image: linear-gradient(to left,  #1adb7ecb, #168d53);
+    background-color: rgba(0, 0, 0, 0.952);
+    /*background-image: linear-gradient(to left,  #57df9dcb, #0d6138 /*#168d53));*/
 }
 
 header {
@@ -47,10 +48,12 @@ header > h1{
     font-size: 7vw;
     text-shadow: 2px 2px white;
     
+    
 }
 
 main > h1{
-    background-color: #0B4227;
+    /*background-color: rgba(104, 28, 4, 0.733)#0B4227;*/
+    background-image: linear-gradient(to left, rgba(224, 224, 43, 0.856), rgba(151, 92, 3, 0.863), rgba(104, 28, 4, 0.733) );
     color: white;
     text-align: center;
     /*width: 400px;*/
@@ -63,7 +66,7 @@ main > h1{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-family: var(--fonte3);
-    font-size: 1.5em;
+    font-size: 1em;
 
 }
 
@@ -177,7 +180,8 @@ ul.passo a{
 
 
 div h1{
-    background-color: #0B4227;
+    background-image: linear-gradient(to left, rgba(224, 224, 43, 0.856), rgba(151, 92, 3, 0.863), rgba(104, 28, 4, 0.733) );
+    /*background-color: #0B4227;*/
     color: white;
     text-align: center;
     min-width: 300px;
@@ -188,7 +192,7 @@ div h1{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-family: var(--fonte3);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 div ul{
@@ -211,6 +215,8 @@ div ul img {
     width: 20px;
 }
 
+
+
 section.pag2{
     margin-top: 20px;
     border-radius: 20px;
@@ -218,6 +224,7 @@ section.pag2{
     max-width: 1000px;
     width: 80%;
     text-indent: 20px;
+    
 }
 
 section.pag3{
